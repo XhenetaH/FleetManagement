@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetManagement", "FleetManagement\FleetManagement.csproj", "{1F3A31C3-AF3C-43BA-BF17-E5679F3257D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetManagment.BLL", "FleetManagment.BLL\FleetManagment.BLL.csproj", "{9F3C5285-CE7F-4931-9EC0-F79CB81BD136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetManagment.DAL", "FleetManagment.DAL\FleetManagment.DAL.csproj", "{84C7083C-C1FE-4DAE-874D-25F26932BB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetManagment.BO", "FleetManagment.BO\FleetManagment.BO.csproj", "{72C6D111-F2F8-462D-A2BB-636052F0404D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{1F3A31C3-AF3C-43BA-BF17-E5679F3257D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F3A31C3-AF3C-43BA-BF17-E5679F3257D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F3A31C3-AF3C-43BA-BF17-E5679F3257D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3C5285-CE7F-4931-9EC0-F79CB81BD136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3C5285-CE7F-4931-9EC0-F79CB81BD136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3C5285-CE7F-4931-9EC0-F79CB81BD136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3C5285-CE7F-4931-9EC0-F79CB81BD136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C7083C-C1FE-4DAE-874D-25F26932BB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C7083C-C1FE-4DAE-874D-25F26932BB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C7083C-C1FE-4DAE-874D-25F26932BB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C7083C-C1FE-4DAE-874D-25F26932BB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C6D111-F2F8-462D-A2BB-636052F0404D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C6D111-F2F8-462D-A2BB-636052F0404D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C6D111-F2F8-462D-A2BB-636052F0404D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C6D111-F2F8-462D-A2BB-636052F0404D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
